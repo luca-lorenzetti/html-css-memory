@@ -15,7 +15,7 @@ h1{
     color: #fff;
     text-align: center;
     font-size: 82px;
-    text-shadow: 1px 1px 1px #aaaaaa;
+    text-shadow: 1px 1px 1px grey;
     line-height: 160px;
 }
 
@@ -25,14 +25,6 @@ main{
     margin: auto;
 }
 
-.card{
-    display: inline-block;
-    height: 220px;
-    width: 190px;
-    margin: 20px 10px;
-    border-radius: 6px;
-    box-shadow: 2px 2px 1.5px  #aaaaaa;
-}
 
  /* STYLE CARD HOVER */
 .card:hover .figure-name-card{
@@ -43,6 +35,16 @@ main{
     background-image: none;
 }
 /***************************/
+
+/* STYLE CARD AND COVER CARD */
+.card{
+    display: inline-block;
+    height: 220px;
+    width: 190px;
+    margin: 20px 10px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px 1px #aaaaaa;
+}
 
 .cover-card{
     background-image: url("../img/pattern.png");
@@ -63,6 +65,7 @@ main{
     text-align: center;
     text-shadow: 1px 1px 1px #000;
 }
+/****************************/
 
  /* STYLE NAME CARD */
 .air-baloon{
