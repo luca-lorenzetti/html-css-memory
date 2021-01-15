@@ -3,10 +3,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Nerko One', cursive;
 }
 /**********************/
 
 body{
     background-color: #ADD8E6;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 2px 2px grey;
+    line-height: 180px;
+}
+
+main{
+    width: 800px;
+    height: 700px;
+    margin: 20px auto;
+    
+}
+
+.card{
+    display: inline-block;
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+    height: 28%;
+    width: 22%;
+    margin: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
 }
