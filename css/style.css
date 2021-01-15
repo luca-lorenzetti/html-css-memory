@@ -14,13 +14,13 @@ body{
 h1{
     color: #fff;
     text-align: center;
-    font-size: 80px;
-    text-shadow: 2px 2px 1px grey;
-    line-height: 180px;
+    font-size: 82px;
+    text-shadow: 1px 1px 1px #aaaaaa;
+    line-height: 160px;
 }
 
 main{
-    width: 780px;
+    width: 900px;
     height: 700px;
     margin: auto;
 }
@@ -28,12 +28,13 @@ main{
 .card{
     display: inline-block;
     height: 220px;
-    width: 170px;
+    width: 190px;
     margin: 20px 10px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px grey;
+    border-radius: 6px;
+    box-shadow: 2px 2px 1.5px  #aaaaaa;
 }
 
+ /* STYLE CARD HOVER */
 .card:hover .figure-name-card{
     opacity: 1.0;
 }
@@ -41,6 +42,8 @@ main{
     background-color: white;
     background-image: none;
 }
+/***************************/
+
 .cover-card{
     background-image: url("../img/pattern.png");
     background-size: contain;
@@ -52,14 +55,16 @@ main{
     margin: 10px auto;
 }
 .figure-name-card {
-    opacity: 0.0;
-    padding-top: 10px;
+    opacity: 0;
+    padding-top: 9px;
 }
 
 .figure-name-card > h2.name-card{
+    text-align: center;
     text-shadow: 1px 1px 1px #000;
 }
 
+ /* STYLE NAME CARD */
 .air-baloon{
     color: #ff66cc;
 }
@@ -77,4 +82,11 @@ main{
 }
 .submarine{
     color: #750be0;
+}
+/**************************/
+
+footer{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
 }
