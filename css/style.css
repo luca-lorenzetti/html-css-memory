@@ -15,24 +15,66 @@ h1{
     color: #fff;
     text-align: center;
     font-size: 80px;
-    text-shadow: 2px 2px grey;
+    text-shadow: 2px 2px 1px grey;
     line-height: 180px;
 }
 
 main{
-    width: 800px;
+    width: 780px;
     height: 700px;
-    margin: 20px auto;
-    
+    margin: auto;
 }
 
 .card{
     display: inline-block;
-    background-image: url("../img/pattern.png");
-    background-size: contain;
-    height: 28%;
-    width: 22%;
+    height: 220px;
+    width: 170px;
     margin: 20px 10px;
     border-radius: 5px;
-    box-shadow: 2px 2px grey;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.card:hover .figure-name-card{
+    opacity: 1.0;
+}
+.card:hover{
+    background-color: white;
+    background-image: none;
+}
+.cover-card{
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+}
+
+.card div.figure-name-card:only-child{
+    background-color: #fff;
+    width: 70%;
+    margin: 10px auto;
+}
+.figure-name-card {
+    opacity: 0.0;
+    padding-top: 10px;
+}
+
+.figure-name-card > h2.name-card{
+    text-shadow: 1px 1px 1px #000;
+}
+
+.air-baloon{
+    color: #ff66cc;
+}
+.tractor{
+    color: #dd9700;
+}
+.bicycle{
+    color: #002fdb;
+}
+.cruise-ship{
+    color: #03aa3e;
+}
+.tram{
+    color:#009399;
+}
+.submarine{
+    color: #750be0;
 }
