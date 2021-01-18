@@ -19,7 +19,7 @@ h1{
 }
 
 main{
-    width: 860px;
+    width: 1000px;
     height: 700px;
     margin: auto;
 }
@@ -27,6 +27,7 @@ main{
 .row{
     width: 100%;
     margin: auto;
+    text-align: center;
 }
  /* STYLE CARD HOVER */
 .card:hover .figure-name-card{
@@ -71,7 +72,7 @@ main{
     background-image: none;
     
 }
-/***********************/
+/**********/
 
 .figure-name-card {
     opacity: 0;
@@ -84,6 +85,7 @@ main{
     margin-top: -10px;
 }
 /****************************/
+
 
  /* STYLE NAME CARD */
 .air-baloon{
