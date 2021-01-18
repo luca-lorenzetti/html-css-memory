@@ -19,12 +19,15 @@ h1{
 }
 
 main{
-    width: 900px;
+    width: 860px;
     height: 700px;
     margin: auto;
 }
 
-
+.row{
+    width: 100%;
+    margin: auto;
+}
  /* STYLE CARD HOVER */
 .card:hover .figure-name-card{
     opacity: 1.0;
@@ -33,7 +36,7 @@ main{
     background-color: white;
     background-image: none;
 }
-.card:nth-child(6):hover h2{
+.row:nth-child(2) .card:nth-child(2):hover h2{
     color: yellow;
 }
 /***************************/
@@ -41,7 +44,7 @@ main{
 /* STYLE CARD AND COVER CARD */
 .card{
     display: inline-block;
-    height: 220px;
+    height: 20%;
     width: 190px;
     margin: 20px 10px;
     border-radius: 10px;
@@ -60,10 +63,10 @@ main{
 }
 
 /* UPCARD */
-.card:nth-child(6) .figure-name-card{
+.row:nth-child(2) .card:nth-child(2) .figure-name-card{
     opacity: 1.0;
 }
-.card:nth-child(6){
+.row:nth-child(2) .card:nth-child(2){
     background-color: white;
     background-image: none;
     
